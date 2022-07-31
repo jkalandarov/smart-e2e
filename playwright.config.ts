@@ -18,6 +18,7 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     baseURL: 'http://smartinvest.uz',
     trace: 'on-first-retry',
+    headless: true,
   },
 
   projects: [
